@@ -1,0 +1,97 @@
+//
+//  UIImageExtension.swift
+//  Cupatea
+//
+//  Created by Thenny Chhorn on 10/12/22.
+//
+
+import UIKit
+
+extension UIImage {
+    
+    static let filterImage = UIImage(systemName: "slider.horizontal.3")
+    static let userImage = UIImage(systemName: "person")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let chatImage = UIImage(systemName: "ellipsis.message")
+    static let heartImage = UIImage(systemName: "heart")
+    static let heartFillImage = UIImage(systemName: "heart.fill")?.withTintColor(.pinkColor)
+    static let exploreImage = UIImage(systemName: "sparkle.magnifyingglass")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let notificationImage = UIImage(systemName: "bell.fill")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 18))
+    static let matchingImage = UIImage(named: "cup")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let cupImage = UIImage(systemName: "cup.and.saucer")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let giftImage = UIImage(named: "giftLogo")
+    static let pinImage = UIImage(systemName: "pin")
+    static let likeImage = UIImage(named: "like")
+    static let pinFillImage = UIImage(systemName: "pin.fill")?.withTintColor(.accentGreenColor)
+    static let pinOutLinedImage = UIImage(systemName: "pin")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let xmarkImage = UIImage(systemName: "xmark")?.withTintColor(.systemRed).withConfiguration(UIImage.SymbolConfiguration(pointSize: 15, weight: .bold))
+    static let xmarkCircleImage = UIImage(systemName: "xmark.circle")
+    static let crossImage = UIImage(named: "cross")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let cup_tabBarImage = UIImage(named: "cupp")
+    static let backImage = UIImage(systemName: "chevron.left")
+    static let returnImage = UIImage(systemName: "arrow.uturn.backward.square")
+    static let forwardImage = UIImage(systemName: "chevron.right")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 15))
+    static let sendButtonImage = UIImage(systemName: "arrow.up.circle.fill")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 24, weight: .bold))
+    static let moreImage = UIImage(systemName: "ellipsis")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 24))
+  //  static let dotsImage = UIImage(named: "dotsReport")?.withTintColor(.gray)
+    static let locationImage = UIImage(systemName: "mappin.and.ellipse")
+    static let professionImage = UIImage(systemName: "briefcase.fill")
+    static let trashImage = UIImage(systemName: "trash")
+    static let editImage = UIImage(systemName: "pencil.tip.crop.circle.badge.plus")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 27))
+    static let calendar = UIImage(systemName: "calendar")
+    static let editSquareImage = UIImage(systemName: "square.and.pencil.circle")
+    static let textEditImage = UIImage(systemName: "highlighter")
+    static let checkImage = UIImage(systemName: "checkmark")
+    static let dismissImage = UIImage(systemName: "chevron.down.circle")
+    static let ethnicity = UIImage(systemName: "people")
+    static let settingImage = UIImage(systemName: "gearshape")
+    static let verifyImage = UIImage(systemName: "checkmark.shield.fill")
+    static let schoolImage = UIImage(systemName: "building.columns.fill")
+    
+    static let addressImage = UIImage(systemName: "building.columns.fill")
+
+    static let addImageDashed = UIImage(systemName: "plus.square.dashed")
+    
+    static let checkMarkImage = UIImage(systemName: "checkmark.circle")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let unCheckMarkImage = UIImage(systemName: "circle")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let addImage = UIImage(systemName: "plus")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 24, weight: .medium))
+    
+    static let plusCircleImage = UIImage(systemName: "plus.circle")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 24, weight: .medium))
+
+    static let plusSquareImage = UIImage(systemName: "plus.square")
+    static let plusMessageImage = UIImage(systemName: "plus.message")
+    
+    static let addCommentImage = UIImage(systemName: "plus.bubble")
+    static let homeImage = UIImage(systemName: "house")
+    static let homeFilledImage = UIImage(systemName: "house.fill")
+    static let workImage = UIImage(systemName: "briefcase")
+    static let workFilledImage = UIImage(systemName: "briefcase.fill")
+    static let miscellaneousImage = UIImage(systemName: "dpad")
+    static let reminderImage = UIImage(systemName: "dot.circle.and.hand.point.up.left.fill")
+    static let questionMarkImage = UIImage(systemName: "questionmark.bubble")
+    static let crownFillImage = UIImage(systemName: "crown.fill")
+    static let cronImage = UIImage(systemName: "crown")
+    static let squareCheck = UIImage(systemName: "square")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 24))
+    static let squareCheckFill = UIImage(systemName: "checkmark.square.fill")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 24))
+    static let menuImage = UIImage(systemName: "text.aligncenter")
+    static let infoImage = UIImage(systemName: "info.bubble")
+    static let downloadImage = UIImage(systemName: "square.and.arrow.down")
+    static let creditCardImage = UIImage(systemName: "creditcard.fill")
+    static let starImage = UIImage(systemName: "star.fill")
+    static let sendImage = UIImage(systemName: "envelope.fill")
+    static let setReminderImage = UIImage(systemName: "alarm")
+    static let alarmImage = UIImage(systemName: "bell.badge")
+    static let permissionImage = UIImage(systemName: "hand.app.fill")
+    static let downArrowImage = UIImage(systemName: "chevron.down.circle.fill")?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 21))
+    static let moreButton = UIImage(systemName: "info.circle")
+    static let lockImage = UIImage(systemName: "lock")
+    static let directionImage = UIImage(systemName: "car.fill")
+    static let callImage = UIImage(systemName: "phone.arrow.up.right.fill")
+    static let contactImage = UIImage(systemName: "phone.circle")
+    static let photoAccess = UIImage(systemName: "checkmark.seal")
+    static let envolopImage = UIImage(systemName: "envelope.open")
+    static let privatePolicy = UIImage(systemName: "checkmark.shield")
+    static let deleteAccount = UIImage(systemName: "xmark.shield")
+    static let logoutImage = UIImage(systemName: "rectangle.portrait.and.arrow.right")
+    static let dotsImage = UIImage(named: "dots")
+    static let rightUpArrow = UIImage(systemName: "arrow.up.right.square")
+}
